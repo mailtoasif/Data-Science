@@ -1,4 +1,5 @@
 #Face Detection Model using Data Science Techniques
+
 Overview
 This project focuses on building a Face Detection Model using various data science and machine learning techniques. The model detects faces in images and video streams with high accuracy, leveraging cutting-edge algorithms and computer vision methods. The project can be applied to real-world use cases such as security systems, facial recognition, and more.
 
@@ -17,6 +18,8 @@ To improve the model’s accuracy, the data undergoes the following preprocessin
 
 Normalization: All images are resized and normalized for faster training.
 Augmentation: The dataset is augmented using transformations such as rotations, flips, and brightness adjustments to make the model robust to variations in face orientation and lighting.
+
+
 3. Model Training
 The model is built using popular deep learning frameworks like TensorFlow or PyTorch and employs pre-trained models such as Haar Cascades, MTCNN, or FaceNet. By fine-tuning these models, we achieve faster and more accurate face detection.
 
@@ -28,22 +31,34 @@ To set up the project on your local machine:
 
 Clone the repository:
 bash
+
+
 Copy code
 git clone https://github.com/username/face-detection-model.git
 cd face-detection-model
 Install the required dependencies:
 bash
+
+
+
 Copy code
 pip install -r requirements.txt
 Run the model on sample images:
 bash
+
+
 Copy code
 python run_detection.py --image path_to_image.jpg
 Run real-time detection using webcam:
+
+
 bash
 Copy code
 python real_time_detection.py
 Project Structure
+
+
+
 bash
 Copy code
 ├── models/                # Pre-trained models and weights

@@ -1,4 +1,4 @@
-Face Detection Model using Data Science Techniques
+#Face Detection Model using Data Science Techniques
 Overview
 This project focuses on building a Face Detection Model using various data science and machine learning techniques. The model detects faces in images and video streams with high accuracy, leveraging cutting-edge algorithms and computer vision methods. The project can be applied to real-world use cases such as security systems, facial recognition, and more.
 
